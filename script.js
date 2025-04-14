@@ -102,7 +102,7 @@ document.querySelectorAll('.form').forEach(form => {
         documentContent += `<p class="space"><strong>Name:  </strong>${formData.get('submittedToName')} </p>`;
         documentContent += `<p class="space"><strong>Designation:  </strong>${formData.get('submittedToDesignation')} </p>`;
         documentContent += `<p class="space"><strong>Department:  </strong>${formData.get('submittedToDepartment')} </p>`;
-        documentContent += `<p class="space"><strong> Daffodil International University </strong></p>`;
+        documentContent += `<p class="space"><strong> Sher-e-Bangla Agricultural University </strong></p>`;
         documentContent += `<p>   </p>`;
         documentContent += `<p class="category-head-text-style"><strong><span class="category-head-text-style-underline">Submitted By: </strong></span></p>`;
         documentContent += `<p class="space"><strong>Name:  </strong> ${formData.get('submittedByName')}  </p>`;
@@ -110,7 +110,7 @@ document.querySelectorAll('.form').forEach(form => {
         documentContent += `<p class="space"><strong>Section:  </strong> ${formData.get('section')} </p>`;
         documentContent += `<p class="space"><strong>Semester:  </strong> ${formData.get('semester')} </p>`;
         documentContent += `<p class="space"><strong>Department:  </strong> ${formData.get('submittedByDepartment')} </p>`;
-        documentContent += `<p class="space"><strong> Sher-e-Bangla Agricultural University </strong></p>`;
+        documentContent += `<p class="space"><strong> Daffodil International University </strong></p>`;
         documentContent += `<p>   </p>`;
         documentContent += `<p class="category-head-text-style"><strong><span class="category-head-text-style-underline">Submission Date:</strong></span> <span class="dateColor">${formData.get('submissionDate')}</span> </p>`;
 
